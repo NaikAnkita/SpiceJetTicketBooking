@@ -34,7 +34,7 @@ public class OneWayTrip extends TestBase{
 		WebElement ArrivalDD;
 		@FindBy(xpath="//*[@id=\"dropdownGroup1\"]/div/ul[1]/li[12]//*[@value='DEL']")
 		WebElement ArrivalValue;
-		@FindBy(id="departureCalendar")
+		@FindBy(xpath = "//input[@name='ctl00$mainContent$txt_Fromdate']")
 		WebElement SelctDepartureDate;
 		@FindBy(xpath = "//div[@class='DayPicker-Caption'][contains(text(),'August 2020')]") //DDMM
 		WebElement DepartnrDate;
