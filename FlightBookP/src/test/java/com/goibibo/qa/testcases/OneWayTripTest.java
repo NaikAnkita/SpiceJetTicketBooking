@@ -27,11 +27,6 @@ public class OneWayTripTest extends TestBase{
 		//create object of onewaytrippage class
 		}
 	
-//	@Test(priority=1)
-//	public void ValidateGoibiboLogoTest() {
-//		boolean flag = onewaytrip.validateGoibiboLogo();
-//		Assert.assertTrue(flag);
-//	}
 	
 	@Test(priority=1)
 	public void SelectOneWayDetailsTest() throws InterruptedException {
@@ -53,8 +48,5 @@ public class OneWayTripTest extends TestBase{
 	}
 	
 	
-	
-	
-	
-	
+
 }
