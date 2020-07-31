@@ -71,7 +71,7 @@ public class OneWayTrip extends TestBase{
 			System.out.println("Arrival dropdown Option is Visible");
 			Thread.sleep(10);
 			ArrivalValue.click();//test
-			}
+			}//
 			
 		public void SelectDepartureDate() throws InterruptedException {
 			Thread.sleep(10);
