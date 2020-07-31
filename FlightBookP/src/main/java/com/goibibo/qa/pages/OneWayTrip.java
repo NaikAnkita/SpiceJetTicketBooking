@@ -67,7 +67,7 @@ public class OneWayTrip extends TestBase{
 		public void SelectDestination() throws InterruptedException {
 //			Select DestinationDD1 = new Select(DestinationDD);
 //			DestinationDD1.selectByValue("Delhi (DEL)");
-			ArrivalDD.click();
+			ArrivalDD.click(); //t
 			System.out.println("Arrival dropdown Option is Visible");
 			Thread.sleep(10);
 			ArrivalValue.click();
